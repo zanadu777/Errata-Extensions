@@ -1,0 +1,15 @@
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\Errata.Core.Tests.dll
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\Errata.Core.Tests.pdb
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\Errata.Core.dll
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\FluentAssertions.Core.dll
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\FluentAssertions.dll
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\Errata.Core.pdb
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\FluentAssertions.pdb
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\FluentAssertions.xml
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\FluentAssertions.Core.pdb
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\FluentAssertions.Core.xml
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\obj\Debug\Errata.Core.Tests.csprojResolveAssemblyReference.cache
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\obj\Debug\Errata.Core.Tests.dll
+D:\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\obj\Debug\Errata.Core.Tests.pdb

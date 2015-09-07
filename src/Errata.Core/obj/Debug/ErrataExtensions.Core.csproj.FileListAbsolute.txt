@@ -1,0 +1,5 @@
+D:\Programming 2015\ErrataExtensions\src\ErrataExtensions.Core\bin\Debug\ErrataExtensions.Core.dll
+D:\Programming 2015\ErrataExtensions\src\ErrataExtensions.Core\bin\Debug\ErrataExtensions.Core.pdb
+D:\Programming 2015\ErrataExtensions\src\ErrataExtensions.Core\obj\Debug\ErrataExtensions.Core.csprojResolveAssemblyReference.cache
+D:\Programming 2015\ErrataExtensions\src\ErrataExtensions.Core\obj\Debug\ErrataExtensions.Core.dll
+D:\Programming 2015\ErrataExtensions\src\ErrataExtensions.Core\obj\Debug\ErrataExtensions.Core.pdb

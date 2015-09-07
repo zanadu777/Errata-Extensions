@@ -1,0 +1,8 @@
+D:\Programming 2015\ErrataExtensions\src\ErrataExtensions.Core\bin\Debug\Errata.Core.dll
+D:\Programming 2015\ErrataExtensions\src\ErrataExtensions.Core\bin\Debug\Errata.Core.pdb
+D:\Programming 2015\ErrataExtensions\src\ErrataExtensions.Core\obj\Debug\Errata.Core.dll
+D:\Programming 2015\ErrataExtensions\src\ErrataExtensions.Core\obj\Debug\Errata.Core.pdb
+D:\Programming 2015\ErrataExtensions\src\Errata.Core\bin\Debug\Errata.Core.dll
+D:\Programming 2015\ErrataExtensions\src\Errata.Core\bin\Debug\Errata.Core.pdb
+D:\Programming 2015\ErrataExtensions\src\Errata.Core\obj\Debug\Errata.Core.dll
+D:\Programming 2015\ErrataExtensions\src\Errata.Core\obj\Debug\Errata.Core.pdb
