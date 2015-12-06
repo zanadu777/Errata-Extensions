@@ -46,6 +46,13 @@ namespace Errata.IO
 
         }
 
+        public static void DeleteContents(this DirectoryInfo dir)
+        {
+            dir.DeleteFiles();
+            foreach (var directory in dir.GetDirectories())
+                directory.Delete(true);
+        }
+
         public static DirectoryInfo Rename(this DirectoryInfo directory, string name)
         {
             if (directory.Parent == null)
