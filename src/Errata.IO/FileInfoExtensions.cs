@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text.RegularExpressions;
@@ -51,7 +52,7 @@ namespace Errata.IO
             }
             catch (Exception ex)
             {
-
+                Debug.WriteLine(ex.Message);
             }
             return "";
 
