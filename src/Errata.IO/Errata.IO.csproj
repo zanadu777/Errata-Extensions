@@ -50,6 +50,7 @@
     <Compile Include="FileInfoArrayExtensions.cs" />
     <Compile Include="FileInfoExtensions.cs" />
     <Compile Include="IEnumerableDirectoryInfoExtensions.cs" />
+    <Compile Include="IEnumerableOfFileInfoExtensions.cs" />
     <Compile Include="IsolatedStorageFileExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamExtensions.cs" />

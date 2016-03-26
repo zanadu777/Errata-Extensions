@@ -7,3 +7,8 @@ D:\Programming 2015\ErrataExtensions\src\Errata.Core\bin\Debug\Errata.Core.pdb
 D:\Programming 2015\ErrataExtensions\src\Errata.Core\obj\Debug\Errata.Core.dll
 D:\Programming 2015\ErrataExtensions\src\Errata.Core\obj\Debug\Errata.Core.pdb
 D:\Programming 2015\ErrataExtensions\src\Errata.Core\obj\Debug\Errata.Core.csprojResolveAssemblyReference.cache
+D:\Dev\Programming 2015\ErrataExtensions\src\Errata.Core\bin\Debug\Errata.Core.dll
+D:\Dev\Programming 2015\ErrataExtensions\src\Errata.Core\bin\Debug\Errata.Core.pdb
+D:\Dev\Programming 2015\ErrataExtensions\src\Errata.Core\obj\Debug\Errata.Core.csprojResolveAssemblyReference.cache
+D:\Dev\Programming 2015\ErrataExtensions\src\Errata.Core\obj\Debug\Errata.Core.dll
+D:\Dev\Programming 2015\ErrataExtensions\src\Errata.Core\obj\Debug\Errata.Core.pdb

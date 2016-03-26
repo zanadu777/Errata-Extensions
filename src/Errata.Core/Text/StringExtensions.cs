@@ -74,6 +74,49 @@ namespace Errata.Text
         }
 
 
+        private static HashSet<string> numericNames = new HashSet<string> { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+        public static string Value(this string text, Regex regex)
+        {
+            var match = regex.Match(text);
+            return match.Value;
+        }
 
+
+        public static string GroupValue(this string text, Regex regex, string groupName)
+        {
+            var match = regex.Match(text);
+            return match.Groups[groupName].Value;
+        }
+
+
+        public static string GroupValue(this string text, Regex regex, int index)
+        {
+            var match = regex.Match(text);
+            return match.Groups[index].Value;
+        }
+
+        public static string GroupValue(this string text, Regex regex)
+        {
+            var match = regex.Match(text);
+            var names = regex.GetGroupNames();
+
+            foreach (var name in names)
+            {
+                if (numericNames.Contains(name))
+                    continue;
+                int unused;
+                if (int.TryParse(name, out unused))
+                    continue;
+
+                return match.Groups[name].Value;
+            }
+            return match.Groups[0].Value;
+        }
+
+
+        public static bool IsMatch(this string text, Regex regex)
+        {
+            return regex.IsMatch(text);
+        }
     }
 }

@@ -5,3 +5,10 @@ D:\Programming 2015\ErrataExtensions\src\Errata.IO\bin\Debug\Errata.Core.pdb
 D:\Programming 2015\ErrataExtensions\src\Errata.IO\obj\Debug\Errata.IO.csprojResolveAssemblyReference.cache
 D:\Programming 2015\ErrataExtensions\src\Errata.IO\obj\Debug\Errata.IO.dll
 D:\Programming 2015\ErrataExtensions\src\Errata.IO\obj\Debug\Errata.IO.pdb
+D:\Dev\Programming 2015\ErrataExtensions\src\Errata.IO\obj\Debug\Errata.IO.csprojResolveAssemblyReference.cache
+D:\Dev\Programming 2015\ErrataExtensions\src\Errata.IO\obj\Debug\Errata.IO.dll
+D:\Dev\Programming 2015\ErrataExtensions\src\Errata.IO\obj\Debug\Errata.IO.pdb
+D:\Dev\Programming 2015\ErrataExtensions\src\Errata.IO\bin\Debug\Errata.IO.dll
+D:\Dev\Programming 2015\ErrataExtensions\src\Errata.IO\bin\Debug\Errata.IO.pdb
+D:\Dev\Programming 2015\ErrataExtensions\src\Errata.IO\bin\Debug\Errata.Core.dll
+D:\Dev\Programming 2015\ErrataExtensions\src\Errata.IO\bin\Debug\Errata.Core.pdb

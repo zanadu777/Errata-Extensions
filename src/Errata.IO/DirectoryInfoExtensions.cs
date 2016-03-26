@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 
 namespace Errata.IO
 {
@@ -177,6 +178,7 @@ namespace Errata.IO
             }
         }
 
+        
 
         private static void CopyFilesTo(this DirectoryInfo directory, DirectoryInfo destination, IEnumerable<string> filenames)
         {
@@ -187,6 +189,29 @@ namespace Errata.IO
 
             foreach (var file in files)
                 file.CopyTo(destination);
+        }
+
+        private static void CopyFilesFrom(this DirectoryInfo directory, Uri uri)
+        {
+            //uri.
+            using (var client = new WebClient())
+            {
+                try
+                {
+                    var path = Path.Combine(directory.FullName, uri.Segments.Last());
+                    client.DownloadFile(uri, path);
+                }
+                catch (Exception)
+                {
+                    
+                    throw;
+                }
+            }
+        }
+
+        private static void CopyFilesFrom(this DirectoryInfo directory, string path)
+        {
+
         }
 
         private static void CopyFilesFrom(this DirectoryInfo directory, DirectoryInfo source, IEnumerable<string> filenames)

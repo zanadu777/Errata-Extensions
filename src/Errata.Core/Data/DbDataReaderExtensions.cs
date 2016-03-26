@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System.Collections.Generic;
+using System.Data;
 using System.Data.Common;
 
 namespace Errata.Data
@@ -28,5 +29,24 @@ namespace Errata.Data
             }
             return dt;
         }
+
+
+        public static Dictionary<TK, TV> Dictionary<TK, TV>(this DbDataReader reader, string keyColumn, string valueColumn)
+        {
+            var keyPos = reader.GetOrdinal(keyColumn);
+            var valuePos = reader.GetOrdinal(valueColumn);
+            return reader.Dictionary<TK, TV>(keyPos, valuePos);
+        }
+
+
+        public static Dictionary<TK, TV> Dictionary<TK, TV>(this DbDataReader reader, int keyColumnPos, int valueColumnPos)
+        {
+            var dict = new Dictionary<TK, TV>();
+            while (reader.Read())
+                dict[(TK)reader.GetValue(keyColumnPos)] = (TV)reader.GetValue(valueColumnPos);
+
+            return dict;
+        }
+
     }
 }
