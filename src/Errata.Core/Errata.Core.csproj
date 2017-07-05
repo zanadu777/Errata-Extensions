@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\IEnumerableExtensions.cs" />
     <Compile Include="Collections\ObservableCollectionExtensions.cs" />
     <Compile Include="Data\DataTableExtensions.cs" />
     <Compile Include="Data\DbDataReaderExtensions.cs" />
@@ -50,6 +51,7 @@
     <Compile Include="Text\RegexExtensions.cs" />
     <Compile Include="Text\StringBuilderExtensions.cs" />
     <Compile Include="Text\StringExtensions.cs" />
+    <Compile Include="Text\StringsExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

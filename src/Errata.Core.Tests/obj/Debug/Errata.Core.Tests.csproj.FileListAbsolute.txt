@@ -24,7 +24,6 @@ D:\Dev\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\FluentA
 D:\Dev\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\FluentAssertions.xml
 D:\Dev\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\FluentAssertions.Core.pdb
 D:\Dev\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\FluentAssertions.Core.xml
-D:\Dev\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 D:\Dev\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\obj\Debug\Errata.Core.Tests.csprojResolveAssemblyReference.cache
 D:\Dev\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\obj\Debug\Errata.Core.Tests.dll
 D:\Dev\Programming 2015\ErrataExtensions\src\Errata.Core.Tests\obj\Debug\Errata.Core.Tests.pdb

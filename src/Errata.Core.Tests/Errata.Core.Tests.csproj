@@ -65,6 +65,7 @@
     <Compile Include="Text\RegexExtensionsTests.cs" />
     <Compile Include="Text\StringBuilderExtensionsTests.cs" />
     <Compile Include="Text\StringExtensionTests.cs" />
+    <Compile Include="Text\StringsExtensionTests.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

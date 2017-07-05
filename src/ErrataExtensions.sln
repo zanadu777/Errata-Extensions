@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrataExtensions", "ErrataExtensions\ErrataExtensions.csproj", "{79414068-034D-4EB9-BB5D-110E9D16120D}"
 EndProject
@@ -135,5 +135,8 @@ Global
 		{553371DC-9D34-43D7-8B31-A88BB59B987A} = {A13969FE-262B-496A-BFE4-EBB515AC079A}
 		{85B63C0C-67FC-4EE0-B55A-FE4F5FB9C306} = {510B9492-B3C6-4577-814D-6EBF42095250}
 		{650FE7C9-AF09-4A1D-9899-D513D10E007C} = {510B9492-B3C6-4577-814D-6EBF42095250}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 9faf082d-a855-448e-8df0-2b66fefb0ef7
 	EndGlobalSection
 EndGlobal
