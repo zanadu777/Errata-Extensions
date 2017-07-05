@@ -2,17 +2,17 @@
 
 var target = Argument("target" , "Default");
 var configuration = Argument("configuration" , "Debug");
-
+var solutionPath = "./src/ErrataExtensions.sln";
 
 Task("NuGet-Package-Restore")
 .Does(()=>{
-NuGetRestore("./ErrataExtensions.sln");
+NuGetRestore(solutionPath);
 });
 
 Task("Build")
 .IsDependentOn ("NuGet-Package-Restore")
 .Does(()=>{
-MSBuild("./ErrataExtensions.sln", new MSBuildSettings()
+MSBuild(solutionPath, new MSBuildSettings()
 .WithProperty("Windows" , "True")
 .WithProperty("Verbosity", "Minimal"));
 });
@@ -20,7 +20,7 @@ MSBuild("./ErrataExtensions.sln", new MSBuildSettings()
 Task("Test")
 .IsDependentOn("Build")
 .Does(()=> {
-    var paths = new List<FilePath>() { "./Errata.Core.Tests/bin/Debug/Errata.Core.Tests.dll"  };
+    var paths = new List<FilePath>() { "./src/Errata.Core.Tests/bin/Debug/Errata.Core.Tests.dll"  };
     MSTest(paths, new MSTestSettings() { NoIsolation = false });
 });
 
@@ -33,7 +33,7 @@ var nuGetPackSettings = new NuGetPackSettings
         Version                 = "1.0.0.5",
         ReleaseNotes            =new[] {"Added Cake Build"},
 		OutputDirectory         = "./nuget",
-        BasePath                = "./ErrataExtensions/bin/Debug",
+        BasePath                = "./src/ErrataExtensions/bin/Debug",
         
 		IncludeReferencedProjects = true,
         Symbols                 = true,
@@ -44,7 +44,7 @@ var nuGetPackSettings = new NuGetPackSettings
 	};
 
 
-     NuGetPack("./ErrataExtensions/ErrataExtensions.csproj", nuGetPackSettings);
+     NuGetPack("./src/ErrataExtensions/ErrataExtensions.csproj", nuGetPackSettings);
 
 });
 
