@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ErrataExtensions.nupkg</id>
+    <version>1.0.0</version>
+    <authors>Ken Johnson</authors>
+    <owners>Ken</owners>
+    <projectUrl>https://github.com/zanadu777/Errata-Extensions</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extensions to help the framework</description>
+    <releaseNotes>Current Version</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Extensions</tags>
+    <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+  </metadata>
+</package>
