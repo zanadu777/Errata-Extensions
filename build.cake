@@ -16,6 +16,7 @@ MSBuild(solutionPath, new MSBuildSettings()
 .WithProperty("Windows" , "True")
 .WithProperty("Verbosity", "Minimal")
 .WithProperty("ToolVersion", "MSBuildToolVersion.VS2017")
+
 );
 });
 

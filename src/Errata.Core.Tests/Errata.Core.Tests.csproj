@@ -60,6 +60,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Collections\IEnumerableExtensions.cs" />
+    <Compile Include="Collections\ObservableCollectionExtensions.cs" />
     <Compile Include="Numeric\AveragesTests.cs" />
     <Compile Include="Numeric\CentralTendencyTests.cs" />
     <Compile Include="Text\RegexExtensionsTests.cs" />
@@ -72,9 +74,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Collections\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Errata.Core\Errata.Core.csproj">
       <Project>{79a93e28-0a73-4c6b-9890-84d589718bb5}</Project>
