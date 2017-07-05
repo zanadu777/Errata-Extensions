@@ -14,7 +14,8 @@ Task("Build")
 .Does(()=>{
 MSBuild(solutionPath, new MSBuildSettings()
 .WithProperty("Windows" , "True")
-.WithProperty("Verbosity", "Minimal"));
+.WithProperty("Verbosity", "Minimal")
+.WithProperty("ToolVersion", "VS2017"));
 });
 
 Task("Test")
