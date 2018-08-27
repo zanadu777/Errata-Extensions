@@ -1,7 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Errata.Core.Tests.Collections
+namespace Errata.Collections
 {
    public static  class IEnumerableExtensions
     {
@@ -44,6 +48,22 @@ namespace Errata.Core.Tests.Collections
         {
             var collection = new SortedSet<T>(items);
             return null;
+        }
+
+        public static FirstRemainder<T> ToFirstRemainder<T>(this IEnumerable<T> items)
+        {
+            return new FirstRemainder<T>(items);
+        }
+
+        public static  RemainderLast<T> ToRemainderLast<T>(this IEnumerable<T> items)
+        {
+            return new RemainderLast<T>(items);
+        }
+
+
+        public static FirstRemainderLast<T> ToFirstRemainderLast<T>(this IEnumerable<T> items)
+        {
+            return new FirstRemainderLast<T>(items);
         }
     }
 }

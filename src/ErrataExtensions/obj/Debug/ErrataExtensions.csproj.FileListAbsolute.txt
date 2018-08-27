@@ -16,3 +16,14 @@ D:\Dev\Programming 2015\ErrataExtensions\src\ErrataExtensions\bin\Debug\Errata.I
 D:\Dev\Programming 2015\ErrataExtensions\src\ErrataExtensions\obj\Debug\ErrataExtensions.csprojResolveAssemblyReference.cache
 D:\Dev\Programming 2015\ErrataExtensions\src\ErrataExtensions\obj\Debug\ErrataExtensions.dll
 D:\Dev\Programming 2015\ErrataExtensions\src\ErrataExtensions\obj\Debug\ErrataExtensions.pdb
+D:\Dev\Programming 2017\Errata-Extensions\src\ErrataExtensions\bin\Debug\ErrataExtensions.dll
+D:\Dev\Programming 2017\Errata-Extensions\src\ErrataExtensions\bin\Debug\ErrataExtensions.pdb
+D:\Dev\Programming 2017\Errata-Extensions\src\ErrataExtensions\bin\Debug\Errata.Core.dll
+D:\Dev\Programming 2017\Errata-Extensions\src\ErrataExtensions\bin\Debug\Errata.IO.dll
+D:\Dev\Programming 2017\Errata-Extensions\src\ErrataExtensions\bin\Debug\Errata.Core.pdb
+D:\Dev\Programming 2017\Errata-Extensions\src\ErrataExtensions\bin\Debug\Errata.IO.pdb
+D:\Dev\Programming 2017\Errata-Extensions\src\ErrataExtensions\obj\Debug\ErrataExtensions.csprojAssemblyReference.cache
+D:\Dev\Programming 2017\Errata-Extensions\src\ErrataExtensions\obj\Debug\ErrataExtensions.csproj.CoreCompileInputs.cache
+D:\Dev\Programming 2017\Errata-Extensions\src\ErrataExtensions\obj\Debug\ErrataExtensions.csproj.CopyComplete
+D:\Dev\Programming 2017\Errata-Extensions\src\ErrataExtensions\obj\Debug\ErrataExtensions.dll
+D:\Dev\Programming 2017\Errata-Extensions\src\ErrataExtensions\obj\Debug\ErrataExtensions.pdb

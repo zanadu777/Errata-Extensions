@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>NetCore.Errata.Core</AssemblyName>
+    <RootNamespace>Errata</RootNamespace>
+  </PropertyGroup>
+
+</Project>

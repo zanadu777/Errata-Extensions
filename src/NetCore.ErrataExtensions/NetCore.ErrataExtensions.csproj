@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>ErrataExtensions</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Kenneth Johnson</Authors>
+    <Company></Company>
+    <Product>ErrataExtensions</Product>
+    <Version>1.0.0.5</Version>
+    <Description>Errata Extensions provides some extension methods that feel like they were left out of the framework</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetCore.Eratta.Core\NetCore.Eratta.Core.csproj">
+    </ProjectReference>
+    <ProjectReference Include="..\NetCore.Errata.IO\NetCore.Errata.IO.csproj">
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <_PackageFiles Include="$(OutputPath)\NetCore.ErrataExtensions.pdb">
+      <BuildAction>None</BuildAction>
+      <PackagePath>lib\netcoreapp2.1\</PackagePath>
+    </_PackageFiles>
+  </ItemGroup>
+
+  <ItemGroup>
+    <_PackageFiles Include="$(OutputPath)\NetCore.Errata.Core.dll">
+      <BuildAction>None</BuildAction>
+      <PackagePath>lib\netcoreapp2.1\</PackagePath>
+    </_PackageFiles>
+  </ItemGroup>
+
+  <ItemGroup>
+    <_PackageFiles Include="$(OutputPath)\NetCore.Errata.Core.pdb">
+      <BuildAction>None</BuildAction>
+      <PackagePath>lib\netcoreapp2.1\</PackagePath>
+    </_PackageFiles>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <_PackageFiles Include="$(OutputPath)\NetCore.Errata.IO.dll">
+      <BuildAction>None</BuildAction>
+      <PackagePath>lib\netcoreapp2.1\</PackagePath>
+    </_PackageFiles>
+  </ItemGroup>
+
+  <ItemGroup>
+    <_PackageFiles Include="$(OutputPath)\NetCore.Errata.IO.pdb">
+      <BuildAction>None</BuildAction>
+      <PackagePath>lib\netcoreapp2.1\</PackagePath>
+    </_PackageFiles>
+  </ItemGroup>
+
+</Project>

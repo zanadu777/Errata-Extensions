@@ -2,9 +2,8 @@
 using Errata.Text;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
- 
 
-namespace StringExtensionsTests
+namespace Errata.Core.Tests.Text
 {
     [TestClass]
     public class StringBuilderExtensionsTests

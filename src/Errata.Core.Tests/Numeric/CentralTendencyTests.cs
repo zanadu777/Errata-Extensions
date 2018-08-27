@@ -2,8 +2,7 @@
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-
-namespace NumericExtensionsTests
+namespace Errata.Core.Tests.Numeric
 {
     [TestClass]
     public class CentralTendencyTests

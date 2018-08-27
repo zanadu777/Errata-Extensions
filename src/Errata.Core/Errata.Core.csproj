@@ -40,19 +40,51 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Collections\IEnumerableExtensions.cs" />
-    <Compile Include="Collections\ObservableCollectionExtensions.cs" />
-    <Compile Include="Data\DataTableExtensions.cs" />
-    <Compile Include="Data\DbDataReaderExtensions.cs" />
-    <Compile Include="Events\EventHandlerExtensionscs.cs" />
-    <Compile Include="Numeric\Averages.cs" />
-    <Compile Include="Numeric\CentralTendency.cs" />
+    <Compile Include="..\NetCore.Eratta.Core\Collections\FirstRemainder.cs">
+      <Link>Collections\FirstRemainder.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore.Eratta.Core\Collections\FirstRemainderLast.cs">
+      <Link>Collections\FirstRemainderLast.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore.Eratta.Core\Collections\IEnumerableExtensions.cs">
+      <Link>Collections\IEnumerableExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore.Eratta.Core\Collections\ObservableCollectionExtensions.cs">
+      <Link>Collections\ObservableCollectionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore.Eratta.Core\Collections\RemainderLast.cs">
+      <Link>Collections\RemainderLast.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore.Eratta.Core\Data\DataTableExtensions.cs">
+      <Link>Data\DataTableExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore.Eratta.Core\Data\DbDataReaderExtensions.cs">
+      <Link>Data\DbDataReaderExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore.Eratta.Core\Events\EventHandlerExtensionscs.cs">
+      <Link>Events\EventHandlerExtensionscs.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore.Eratta.Core\Numeric\Averages.cs">
+      <Link>Numeric\Averages.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore.Eratta.Core\Numeric\CentralTendency.cs">
+      <Link>Numeric\CentralTendency.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore.Eratta.Core\Text\RegexExtensions.cs">
+      <Link>Text\RegexExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore.Eratta.Core\Text\StringBuilderExtensions.cs">
+      <Link>Text\StringBuilderExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore.Eratta.Core\Text\StringExtensions.cs">
+      <Link>Text\StringExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore.Eratta.Core\Text\StringsExtensions.cs">
+      <Link>Text\StringsExtensions.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Text\RegexExtensions.cs" />
-    <Compile Include="Text\StringBuilderExtensions.cs" />
-    <Compile Include="Text\StringExtensions.cs" />
-    <Compile Include="Text\StringsExtensions.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
